@@ -130,7 +130,7 @@ header .navbar ul li a:hover {
   color: rgb(0, 0, 0);
   display: none;
 }
-@media (max-width: 768px) {
+@media (min-width: 320px) {
   #menu {
     display: block;
   }
@@ -317,7 +317,7 @@ header .navbar ul li a:hover {
 /* social icons end */
 
 /* hero media queries starts*/
-@media (max-width: 450px) {
+@media (min-width: 320px) {
   .home .btn {
     margin: 4rem 0;
   }
@@ -427,7 +427,7 @@ header .navbar ul li a:hover {
   transform: translateX(5px);
 }
 /* about media queries starts*/
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 320px) {
   .about .row .image {
     margin-top: 2rem;
   }
@@ -527,7 +527,7 @@ header .navbar ul li a:hover {
 
 
 /* service media queries starts*/
-@media screen and (max-width: 100%) {
+@media screen and (min-width: 320px) {
   .service.services .container {
     padding: 0;
     margin: 0;
@@ -622,7 +622,7 @@ header .navbar ul li a:hover {
 }
 
 /* contacts media queries starts*/
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 320px) {
   .contacts .box-container .box {
     flex-direction: column;
     width: 100%;
@@ -887,8 +887,8 @@ header .navbar ul li a:hover {
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
-  .service {
+@media screen and (min-width: 320px) {
+  .service.services {
     min-height: 100vh;
   }
   .service .timeline {
@@ -897,12 +897,12 @@ header .navbar ul li a:hover {
   .service .timeline::after {
     left: 31px;
   }
-  .service .container {
+  .service.services .container {
     width: 100%;
     padding-left: 0rem;
     padding-right: 1rem;
   }
-  .work .container::after {
+  .work .services.container::after {
     font-size: 2.2rem;
   }
   .work .container::before {
@@ -962,7 +962,7 @@ header .navbar ul li a:hover {
 
 
 /* contact section media queries starts */
-@media (max-width: 900px) {
+@media (min-width: 320px) {
   .contact {
     min-height: 70vh;
   }
@@ -1075,7 +1075,7 @@ header .navbar ul li a:hover {
     transform: scale(1.1);
   }
 }
-@media (max-width: 450px) {
+@media (min-width: 320px) {
   .footer .box-container .box {
     margin: 1.5rem;
   }
@@ -1093,7 +1093,7 @@ header .navbar ul li a:hover {
 /* footer section ends */
 
 /* common media queries starts*/
-@media (max-width: 450px) {
+@media (min-width: 320px) {
   html {
     font-size: 55%;
   }
